@@ -1,0 +1,21 @@
+The app will add a list of houses, and we need 4 infos: residence number, neighbourhood, city amd house area
+
+The site must show the user the four fields where he can fill in the house info. When they click the button "add",
+ the house must be added in a list just below the form
+
+When the element is added in the list, there must be a button "remove" where, when clicked, removes the element of the list
+
+Needed to do this:
+
+Research function createElement
+creates an element of the type given
+var element = document.createElement(TagName);
+
+
+Research function setAttribute
+Research function removeChild
+Research parentNode
+Create forms with fields and button
+Create function to add elements in the list below the forms
+Cretae remove function
+TEST

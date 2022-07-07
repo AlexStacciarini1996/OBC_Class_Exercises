@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulário Simples</title>
+</head>
+<body>
+    <h1>Cadastro da liga dos Astronautas</h1> 
+    <form> 
+        <label for = "name" >Nome: </label>
+        <input type = "text" id="name" >
+        <br>
+        <br>
+        <label for =  "email"> Email: </label>
+        <input type = "email" id = "email"> 
+        <label for = "pw"> Password: </label>
+        <input type = "password" id = "pw"> 
+        <br>
+        <br>
+        <label for = "bday">Data de Nascimento: </label>
+        <input type = "date" id = "bday">
+        <label for = "photo"> Foto: </label>
+        <input type = "file" id = "photo"> 
+        <br>
+        <br>
+        <label for = "nation">Nacionlidade: </label>
+        <select name = "nation" id = "nation"> 
+            <option value = "russo" > Russo </option>
+            <option value = "americano" > Americano </option>
+            <option value = "brasileiro" > Brasileiro </option>
+            <option value = "italiano" > Italiano </option>
+            <option value = "ingles" > Inglês </option>
+            <option value = "japones" > Japonês </option>
+        </select>
+        <label for = "gender">Gênero</label>
+        <input type = "radio" id = "gender" name = "gender" value = "masculino">
+        <label for = "masc">Masculino</label>
+        <input type = "radio" id = "gender" name = "gender" value = "feminino">
+        <label for = "fem">Feminino</label>
+        <input type = "radio" id = "gender" name = "gender" value = "outro">
+        <label for = "oth">Outro</label>
+        <br>
+        <br>
+        <p>Suas principais qualidades</p>
+        <input type="checkbox" id="att1" name="att1" value="Intel">
+        <label for="att1"> Inteligência</label>
+        <br>
+        <input type="checkbox" id="att2" name="att2" value="Resil">
+        <label for="att2"> Resiliência</label>
+        <br>
+        <input type="checkbox" id="att3" name="att3" value="Intel">
+        <label for="att3"> Preparo Físico</label>
+        <br>
+        <input type="checkbox" id="att4" name="att4" value="Intel">
+        <label for="att4"> Educação </label>
+        <br>
+        <br>
+        <textarea id = "astrotext" name = "astrotext"  placeholder="Por que você decidiu ser astronauta?" rows = "9" cols= "50"> </textarea>
+        <br>
+        <br>
+        <br>
+        <input type = "submit" id = "submit" value = "Criar">
+    </form>
+</body>
+</html>

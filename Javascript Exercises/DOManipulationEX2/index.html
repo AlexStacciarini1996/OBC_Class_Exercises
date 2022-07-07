@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Control</title>
+    <script src="HouseControl.js"></script>
+</head>
+<body>
+    <h3>House Control List</h3>
+    <div>
+        <form >
+            <label for = "residenceNumber">Residence Number: </label>
+            <input type="text" id = "residenceNumber"/>
+            <label for="neighbour"> Neighbourhood: </label>
+            <input type="text" id = "neighbour">
+            <br>
+            <br>
+            <label for="city">City: </label>
+            <input type="text" id = "city">
+            <label for="area">House Area: </label>
+            <input type="text" id="area">
+            <br>
+            <br>
+            <button onmouseup = "CreateHouse(this)">Add House to List</button>
+        </form>
+    </div>
+    <hr>
+<div>
+    <ol id = "houselist">List of Houses</ol>
+</div>
+</body>
+</html>

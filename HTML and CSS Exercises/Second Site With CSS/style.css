@@ -1,0 +1,29 @@
+div
+{
+border: 1px solid #d6bcbc;
+background-color: #d6bcbc;
+margin-right: -10px;
+padding-right: 0px;
+
+}
+h1
+{
+font-family: 'Montserrat', cursive;
+font-weight: 300;
+
+}
+.date
+{
+    font-family: 'Roboto', cursive;
+    color: #008080;
+}
+.post-content
+{
+    font-family: 'Open Sans' cursive;
+    margin-bottom: 100px;
+}
+body
+{
+    margin-left: 300px;
+    margin-right: 0px;
+}

@@ -1,0 +1,32 @@
+criar sistema de monitoramento de naves
+Logo que o sistema é iniciado, ele deve pedir os dados da nave
+Para cada nave cadastrada, precisamo de:
+nome
+quantidade de triplantes
+saber de é de batalha ou transporte
+if batalha: deve pedir quantas armas estão disponíveis
+if transporte: númeor de lugares que ela comporta
+a nave deve ser iniciada com uma velocidade atual igual a 0
+
+Um menu devera aparecer com as opções:
+1 - acelerar
+2 - trocar
+3 Imprimir e sair
+
+Para acelerar, deverá pedir o valor da aceleração
+A velocidade deve aumentar em 83 por cento do valor passado como parametro
+Ou seja, toda aceleração tem uma taxa de desaceleração fixa de 17 por cento
+fórmula:
+velocidade atual + (aceleração * (1 - taxa de desaceleração))
+
+Trocar a nave:
+Para trocar, todos os dados do cadastro serao soclicitados novamente e a nova nave será 
+iniciada com velocidade 0
+Na ultima opção. precisamos imprimir a espaçonave e sair
+A impressão deve ser no formato:
+Nome
+Tripulação
+Velocidade atual
+
+NESTE EXERCÍCIO, QUALQUER CLASSE QUE FOR DECLARADA DEVE SER SEPARADA NUM ARQUIVO A PARTE, DEIXANDO 
+NO ARQUIVO PRINCIPAL APENAS A INICIALIZAÇÃO DA APLICAÇÃO E A CHAMA PARA AS OUTRAS CLASSES 

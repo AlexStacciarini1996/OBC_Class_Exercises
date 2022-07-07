@@ -1,0 +1,20 @@
+I must create a system of real estate registering for a real estate broker
+
+- To register a real estate, I need the following information:
+* Type (house or apartment)
+*Area
+*Is rent?
+- After registering the asset, the form must be wiped for the next registering
+-Below the form, there must be a list of the registerd assets and this list must be updated as soon as the asset is created in the form
+- In this list, the rent assets must have the label "RENT" before the first information, with red background and white letters
+- There must be a "remove" button if the agent decides to remove an asset from the list
+
+To do this I will need:
+
+-Classes:
+*At least 2 classes
+*There must be one class for the asset and one for the app
+*One class per file
+*I can create more classes if necessary
+- DOM Manipulation
+- Calling events from HTML

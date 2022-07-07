@@ -1,0 +1,25 @@
+HTML
+p Welcome to the House Control, please type the info of the house oyu want to add p
+input number
+input neighbourhood
+input city
+input housearea
+h3 List of Houses h3
+<list>houselist</list>
+list must have a remove button in each entry
+
+
+button add => AddHouseToList
+
+JS:
+class House {
+constructor(number, nbh, city, area) {
+number = this.number
+nbh = this.nbh
+city = this.city
+area = this.area
+}
+
+
+
+function AddHouseToList {
